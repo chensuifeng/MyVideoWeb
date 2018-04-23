@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="../jscss/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../jscss/jq/jquery-3.3.1.min.js" type="text/javascript" language="javascript"></script>
+    <script src="../jscss/bootstrap/js/bootstrap.min.js" type="text/javascript" language="javascript"></script>
+    <style>
+        .m_embed{width:100%;height:100%}
+    </style>
+</head>
+<body>
+    <!--<iframe id="miframe" src="https://www.ixxplayer.com/video.php?url=http://bobo.okokbo.com/20180301/WEwKQ997/index.m3u8">
+
+    </iframe>-->
+<!--<div id="mdiv"></div>
+
+    <video controls="controls" autoplay="autoplay">
+        <source src="https://www.ixxplayer.com/video.php?url=http://bobo.okokbo.com/20180301/WEwKQ997/index.m3u8" />
+    </video>-->
+
+    <embed  class="m_embed"  />
+    <div class="m_div"></div>
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+    window.onload = function () {
+        $.ajax({
+            url: "../Hander/Handler.ashx",
+            type: "post",
+            async: true,
+            data: { "name": "hahah" },
+            datatype: "json",
+            success: function (redata) {
+                //document.getElementById("miframe").innerHTML = redata;
+                console.log(redata)
+                
+                //var aa =  document.createElement("embed");
+                //$(aa).attr("src", redata);
+                var aa = document.getElementsByClassName("m_div")[0];
+                aa.innerHTML = redata;
+            }
+        });
+    }
+</script>

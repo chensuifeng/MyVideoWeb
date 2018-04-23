@@ -1,0 +1,4 @@
+D:\工作项目\MyVideoWeb\HandleString\bin\Debug\HandleString.dll
+D:\工作项目\MyVideoWeb\HandleString\bin\Debug\HandleString.pdb
+D:\工作项目\MyVideoWeb\HandleString\obj\Debug\HandleString.dll
+D:\工作项目\MyVideoWeb\HandleString\obj\Debug\HandleString.pdb

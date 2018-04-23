@@ -1,0 +1,6 @@
+D:\工作项目\MyVideoWeb\AqyVideoApi\bin\Debug\AqyVideoApi.dll
+D:\工作项目\MyVideoWeb\AqyVideoApi\bin\Debug\AqyVideoApi.pdb
+D:\工作项目\MyVideoWeb\AqyVideoApi\bin\Debug\Newtonsoft.Json.dll
+D:\工作项目\MyVideoWeb\AqyVideoApi\obj\Debug\AqyVideoApi.dll
+D:\工作项目\MyVideoWeb\AqyVideoApi\obj\Debug\AqyVideoApi.pdb
+D:\工作项目\MyVideoWeb\AqyVideoApi\obj\Debug\AqyVideoApi.csprojResolveAssemblyReference.cache
